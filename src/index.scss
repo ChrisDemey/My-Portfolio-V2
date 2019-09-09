@@ -1,0 +1,285 @@
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+* {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  animation: color-fade 45s infinite;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+@keyframes color-fade {
+  0% { background: rgb(0, 110, 255); }
+  15% { background: rgb(30, 255, 41); }
+  30% { background: #ff820e; }
+  45% { background: #b700ff; }
+  60% { background: #ff0101; }
+  75% { background: #eeff01; }
+  90% { background: #2dc277; }
+  100% { background: rgb(0, 110, 255); }
+}
+
+nav {
+  margin-top: 10px;
+  width: 100%;
+  position: fixed;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  z-index: 5;
+  a {
+      color: rgba(26, 26, 26, 0.336);
+      transition: 0.2s;
+      &:hover {
+          cursor: auto;
+      }
+      i{
+          transition: 0.2s;
+          &:hover{
+              transition: 0.2s;
+              color: rgb(32, 32, 32);
+              cursor: pointer;
+          }
+      }
+  }
+  .changingText {
+      margin-left: 0px;
+      width: 100vw;
+      height: 60px;
+      font-size: 30px;
+      text-align: center;
+      color: rgb(32, 32, 32);
+  }
+}
+
+article h3, h2, h1 {
+  color: rgb(32, 32, 32);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Name {
+  overflow: hidden;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  h1{
+      font-size: 4em;
+      text-align: center;
+  }
+}
+
+.Describe{
+  overflow: hidden;
+  margin-top: 150px;
+  height: 630px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  p{
+      color: rgb(32, 32, 32);
+      text-align: justify;
+      font-size: 2em;
+      margin-left: 25%;
+      margin-right: 25%;
+  }
+}
+
+.Works{
+  overflow: hidden;
+  height: 630px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  .caseOne{
+    margin-left: 40px;
+    margin-right: 40px;
+    flex: 0 420px;
+    height: 200px;
+    margin-bottom: 30px;
+    .imageOne{
+      background-image: url("./img/restoImg.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 200px;
+      &:hover{
+          cursor: pointer;
+      }
+    }
+  }
+  .caseTwo{
+    margin-left: 40px;
+    margin-right: 40px;
+    flex: 0 420px;
+    height: 200px;
+    margin-bottom: 30px;
+    .imageTwo{
+      background: url("./img/td2Img.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 200px;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+  .caseThree{
+    margin-left: 40px;
+    margin-right: 40px;
+    flex: 0 420px;
+    height: 200px;
+    .imageThree{
+      background: url("./img/allezcineImg.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 200px;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+  .caseFour{
+    margin-left: 40px;
+    margin-right: 40px;
+    flex: 0 420px;
+    height: 200px;
+    .imageFour{
+      background: url("./img/hitmanImg.jpg");
+      background-position: center;
+      background-size: cover;
+      height: 200px;
+      &:hover{
+        cursor: pointer;
+      }
+    }
+  }
+  p{
+    margin-top: 30px;
+    font-size: 2em;
+    opacity: 0.6;
+  }
+}
+
+.Contact{
+  height: 630px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  a{
+      color: rgb(32, 32, 32);
+  }
+  .fa-facebook-square{
+      transition: 0.3s;
+      &:hover{
+          transition: 0.3s;
+          color: rgb(23, 77, 255);
+      }
+  }
+  .fa-linkedin{
+      transition: 0.3s;
+      &:hover{
+          transition: 0.3s;
+          color: rgb(0, 90, 126);
+      }
+  }
+  .fa-github-square{
+      transition: 0.3s;
+      &:hover{
+          transition: 0.3s;
+          color: rgb(241, 240, 179);
+      }
+  }
+  .fa-codepen{
+      transition: 0.3s;
+      &:hover{
+          transition: 0.3s;
+          color: rgb(82, 53, 99);
+      }
+  }
+  .fa-twitter-square{
+      transition: 0.3s;
+      &:hover{
+          transition: 0.3s;
+          color: rgb(49, 248, 255);
+      }
+  }
+  .fa-envelope-square{
+      transition: 0.3s;
+      &:hover{
+          transition: 0.3s;
+          color: rgb(255, 30, 0);
+      }
+  }
+}
+
+@media screen and (max-width: 360px){
+
+  nav .changingText{
+      height: 45px;
+      font-size: 20px;
+  }
+
+  .Name {
+      h1{
+          font-size: 45px;
+      }
+      h2{
+          font-size: 20px;
+      }
+  }
+
+  .Describe p{
+      font-size: 1em;
+      font-weight: bolder;
+      margin-left: 5%;
+      margin-right: 5%;
+  }
+
+  .Works{
+    padding-top: 250px;
+    height: 730px;
+    margin-bottom: 150px;
+    .caseOne, .caseTwo, .caseThree, .caseFour{
+        margin: 10px;
+        height: 160px;
+        margin-bottom: 35px;
+    }
+    p{
+        text-align: center;
+        font-size: 25px;
+        width: 280px;
+        margin-bottom: 100px;
+    }
+  }
+
+  .Contact{
+      align-content: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      height: 700px;
+      .fa-facebook-square, .fa-linkedin, .fa-github-square, .fa-codepen, .fa-twitter-square, .fa-envelope-square{
+          width: 100px;
+          margin-bottom: 20px;
+          display: flex;
+          justify-content: center;
+      }
+  }
+}
