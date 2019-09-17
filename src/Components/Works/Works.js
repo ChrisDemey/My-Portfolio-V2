@@ -20,7 +20,7 @@ export default class Works extends Component {
                         <div className="imageThree"></div>
                     </ScrollAnimation>
                 </a>
-                <a className="caseFour" href="https://chrisdemey.github.io/Hitman-site/" target="_blank">
+                <a className="caseFour" href="https://chrisdemey.github.io/Hitman2-website/" target="_blank">
                     <ScrollAnimation animateIn="bounceInRight">
                         <div className="imageFour"></div>
                     </ScrollAnimation>
