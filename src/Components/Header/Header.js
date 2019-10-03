@@ -9,8 +9,13 @@ export default class Header extends Component {
                     <h1>CHRISTOPHE DEMEY</h1>
                 </ScrollAnimation>
                 <ScrollAnimation animateIn="bounceInLeft" animateOut="bounceInRight">
-                    <h2>MON PORTFOLIO</h2>
+                    <h3>JE SUIS ACTUELLEMENT EN FORMATION AFIN DE DEVENIR WEB DEVELOPER JUNIOR</h3>
                 </ScrollAnimation>
+                <a href="#Me">
+                    <ScrollAnimation animateIn="flipInY" animateOut="flipOutX">
+                        <i className="far fa-arrow-alt-circle-down fa-5x"></i>
+                    </ScrollAnimation>
+                </a>
             </article>
         );
     }

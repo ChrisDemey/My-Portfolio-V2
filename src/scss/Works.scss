@@ -1,0 +1,109 @@
+.Works {
+    overflow: hidden;
+    min-height: 100vh;
+    padding-top: 45px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+    .caseOne, .caseTwo, .caseThree, .caseFour {
+        margin: 20px;
+        width: 420px;
+        height: 200px;
+        transition: all 0.4s;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        &:hover .icons{
+            transition: all 0.4s;
+            transform: translateY(-10px);
+            display: flex;
+            justify-content: center;
+        }
+        &:hover .socials{
+            transition: all 0.4s;
+            transform: translateY(20px);
+        }
+        .icons {
+            transition: all 0.4s;
+            transform: translateY(-140px);
+        }
+        .socials{
+            transition: all 0.4s;
+            transform: translateY(140px);
+            a:hover{
+                cursor: pointer;
+            }
+        }
+    }
+
+    .caseOne {
+        box-shadow: -6px 6px rgba(0, 0, 0, 0.233);
+        background-image: url("../img/restoImg.jpg");
+        background-position: center;
+        background-size: cover;
+        &:hover{
+            box-shadow: -15px 15px rgba(0, 0, 0, 0.233);
+            background: linear-gradient(rgba(24, 24, 24, 0.952), rgba(24, 24, 24, 0.952)), url("../img/restoImg.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+    }
+    .caseTwo {
+        box-shadow: 6px 6px rgba(0, 0, 0, 0.233);
+        background: url("../img/td2Img.jpg");
+        background-position: center;
+        background-size: cover;
+        &:hover{
+            box-shadow: 15px 15px rgba(0, 0, 0, 0.233);
+            background: linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/td2Img.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+    }
+    .caseThree {
+        box-shadow: -6px -6px rgba(0, 0, 0, 0.233);
+        background: url("../img/allezcineImg.jpg");
+        background-position: center;
+        background-size: cover;
+        &:hover{
+            box-shadow: -15px -15px rgba(0, 0, 0, 0.233);
+            background: linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/allezcineImg.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+    }
+    .caseFour {
+        box-shadow: 6px -6px rgba(0, 0, 0, 0.233);
+        background: url("../img/hitmanImg.jpg");
+        background-position: center;
+        background-size: cover;
+        &:hover{
+            box-shadow: 15px -15px rgba(0, 0, 0, 0.233);
+            background: linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/hitmanImg.jpg");
+            background-position: center;
+            background-size: cover;
+        }
+    }
+
+    p {
+        font-size: 2em;
+        opacity: 0.6;
+    }
+}
+
+@media screen and (max-width: 360px){
+    .Works {
+        .caseOne, .caseTwo, .caseThree, .caseFour {
+            box-shadow: 0 0 transparent;
+            width: 320px;
+            height: 150px;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+}

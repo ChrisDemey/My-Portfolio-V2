@@ -21,7 +21,7 @@ export default class Nav extends Component {
     render() {
         return (
             <nav id="navBar">
-                <a href="#Home"><i className="fas fa-home fa-2x" id="FirstIcon" 
+                <a href="#Home" className="pulse"><i className="fas fa-home fa-2x" id="FirstIcon" 
                                     onMouseOver={() => this.homeText()} 
                                     onMouseOut={() => this.blankText()}></i></a>
                 <a href="#Me"><i className="fas fa-user-check fa-2x" id="SecondIcon" 
@@ -34,6 +34,7 @@ export default class Nav extends Component {
                                     onMouseOver={() => this.contactText()} 
                                     onMouseOut={() => this.blankText()}></i></a>
                 <article>
+                    {/* eslint-disable-next-line */}
                     <h3 className="changingText" id="Change"></h3>
                 </article>
             </nav>
