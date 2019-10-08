@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 export default class Describe extends Component {
     render() {
         return (
-            <article className="Describe" id="Me">
+            <article className="describe" id="Me">
                 <ScrollAnimation animateIn="flipInY">
                     <p className="firstText">Je m'appelle Christophe, j'ai 29 ans et je suis en fin de formation afin de devenir Junior Web Developer. Infographiste de par ma scolarité (et première passion), je me suis lancé dans une formation Web Developer depuis Avril 2019.</p>
                 </ScrollAnimation>

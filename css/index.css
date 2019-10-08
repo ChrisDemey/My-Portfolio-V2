@@ -1,0 +1,401 @@
+* {
+  margin: 0px;
+  font-family: 'Montserrat', sans-serif;
+  scroll-behavior: smooth;
+}
+
+@-webkit-keyframes color-fade {
+  0% {
+    background: #006eff;
+  }
+  15% {
+    background: #1eff29;
+  }
+  30% {
+    background: #ff820e;
+  }
+  45% {
+    background: #b700ff;
+  }
+  60% {
+    background: #ff0101;
+  }
+  75% {
+    background: #eeff01;
+  }
+  90% {
+    background: #2dc277;
+  }
+  100% {
+    background: #006eff;
+  }
+}
+
+@keyframes color-fade {
+  0% {
+    background: #006eff;
+  }
+  15% {
+    background: #1eff29;
+  }
+  30% {
+    background: #ff820e;
+  }
+  45% {
+    background: #b700ff;
+  }
+  60% {
+    background: #ff0101;
+  }
+  75% {
+    background: #eeff01;
+  }
+  90% {
+    background: #2dc277;
+  }
+  100% {
+    background: #006eff;
+  }
+}
+
+body {
+  -webkit-animation: color-fade 45s infinite;
+          animation: color-fade 45s infinite;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+}
+
+@-webkit-keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+  }
+  75% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+}
+
+@keyframes pulse {
+  25% {
+    -webkit-transform: scale(1.6);
+            transform: scale(1.6);
+  }
+  75% {
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2);
+  }
+}
+
+nav {
+  -webkit-animation: color-fade 45s infinite;
+          animation: color-fade 45s infinite;
+  padding-top: 10px;
+  width: 100%;
+  position: fixed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  z-index: 5;
+}
+
+nav a {
+  color: #222222;
+  display: inline-block;
+  -webkit-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+nav a:hover {
+  cursor: pointer;
+  -webkit-animation-name: pulse;
+          animation-name: pulse;
+  -webkit-animation-duration: 0.6s;
+          animation-duration: 0.6s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+nav .changingText {
+  width: 100vw;
+  height: 60px;
+  font-size: 30px;
+  text-align: center;
+  color: #222222;
+}
+
+article h3, h2, h1 {
+  color: #202020;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+@-webkit-keyframes swing {
+  15% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  30% {
+    -webkit-transform: translateX(-8px);
+            transform: translateX(-8px);
+  }
+  50% {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+  }
+  65% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+  80% {
+    -webkit-transform: translateX(3px);
+            transform: translateX(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes swing {
+  15% {
+    -webkit-transform: translateX(8px);
+            transform: translateX(8px);
+  }
+  30% {
+    -webkit-transform: translateX(-8px);
+            transform: translateX(-8px);
+  }
+  50% {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+  }
+  65% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+  80% {
+    -webkit-transform: translateX(3px);
+            transform: translateX(3px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.Name {
+  overflow: hidden;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Name h1 {
+  font-size: 4em;
+  text-align: center;
+}
+
+.Name h3 {
+  font-size: 1em;
+  margin-right: 15%;
+  margin-left: 15%;
+  text-align: center;
+}
+
+.Name a {
+  margin-top: 40px;
+  color: #222222;
+  -webkit-animation: swing 3s ease;
+          animation: swing 3s ease;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+.Name a:hover {
+  cursor: pointer;
+}
+
+.Describe {
+  overflow: hidden;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Describe p {
+  color: #202020;
+  text-align: justify;
+  font-size: 1.3em;
+  margin: 25px;
+}
+
+.Contact {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.Contact a {
+  color: #202020;
+}
+
+.Contact .fa-facebook-square {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.Contact .fa-facebook-square:hover {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  color: #174dff;
+}
+
+.Contact .fa-linkedin {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.Contact .fa-linkedin:hover {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  color: #005a7e;
+}
+
+.Contact .fa-github-square {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.Contact .fa-github-square:hover {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  color: #f1f0b3;
+}
+
+.Contact .fa-codepen {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.Contact .fa-codepen:hover {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  color: #523563;
+}
+
+.Contact .fa-twitter-square {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.Contact .fa-twitter-square:hover {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  color: #31f8ff;
+}
+
+.Contact .fa-envelope-square {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.Contact .fa-envelope-square:hover {
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+  color: #ff1e00;
+}
+
+@media screen and (max-width: 360px) {
+  nav {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    padding-bottom: 10px;
+  }
+  nav .changingText {
+    height: 0px;
+    font-size: 0px;
+  }
+  .Name h1 {
+    font-size: 45px;
+  }
+  .Name h2 {
+    font-size: 20px;
+  }
+  .Describe p {
+    font-size: 1em;
+    font-weight: bolder;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .Contact {
+    -ms-flex-line-pack: center;
+        align-content: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    height: 700px;
+  }
+  .Contact .fa-facebook-square, .Contact .fa-linkedin, .Contact .fa-github-square, .Contact .fa-codepen, .Contact .fa-twitter-square, .Contact .fa-envelope-square {
+    width: 100px;
+    margin-bottom: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+}

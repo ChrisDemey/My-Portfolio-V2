@@ -4,7 +4,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 export default class Social extends Component {
     render() {
         return (
-            <article className="Contact" id="mySocial">
+            <article className="contact" id="mySocial">
                 <a href="https://www.facebook.com/christophe.demey.7" target="_blank" rel="noopener noreferrer">
                     <ScrollAnimation animateIn="flipInY" animateOut="flipOutX">
                         <i className="fab fa-facebook-square fa-4x"></i>

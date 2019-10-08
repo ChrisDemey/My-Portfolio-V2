@@ -1,4 +1,4 @@
-.Works {
+.works {
     overflow: hidden;
     min-height: 100vh;
     padding-top: 45px;
@@ -66,24 +66,24 @@
         }
     }
     .caseThree {
-        box-shadow: -6px -6px rgba(0, 0, 0, 0.233);
+        box-shadow: -6px 0px rgba(0, 0, 0, 0.233);
         background: url("../img/allezcineImg.jpg");
         background-position: center;
         background-size: cover;
         &:hover{
-            box-shadow: -15px -15px rgba(0, 0, 0, 0.233);
+            box-shadow: -15px 0px rgba(0, 0, 0, 0.233);
             background: linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/allezcineImg.jpg");
             background-position: center;
             background-size: cover;
         }
     }
     .caseFour {
-        box-shadow: 6px -6px rgba(0, 0, 0, 0.233);
+        box-shadow: 6px 0px rgba(0, 0, 0, 0.233);
         background: url("../img/hitmanImg.jpg");
         background-position: center;
         background-size: cover;
         &:hover{
-            box-shadow: 15px -15px rgba(0, 0, 0, 0.233);
+            box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
             background: linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/hitmanImg.jpg");
             background-position: center;
             background-size: cover;
@@ -97,13 +97,44 @@
 }
 
 @media screen and (max-width: 360px){
-    .Works {
+    .Wwrks {
         .caseOne, .caseTwo, .caseThree, .caseFour {
             box-shadow: 0 0 transparent;
             width: 320px;
             height: 150px;
             background-size: cover;
             background-repeat: no-repeat;
+            &:hover .icons{
+                transform: translateY(-5px);
+                display: flex;
+                justify-content: center;
+            }
+            &:hover .socials{
+                transform: translateY(5px);
+            }
         }
+        .caseOne:hover{
+            box-shadow: -15px 0px rgba(0, 0, 0, 0.233);
+        }
+        .caseTwo:hover{
+            box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+        }
+        .caseThree:hover{
+            box-shadow: -15px 0px rgba(0, 0, 0, 0.233);
+        }
+        .caseFour:hover{
+            box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+        }
+        p {
+            text-align: center;
+            width: 340px;
+        }
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .works {
+        margin-left: 20%;
+        margin-right: 20%;
     }
 }

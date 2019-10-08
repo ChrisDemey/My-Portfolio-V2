@@ -22,7 +22,7 @@ const Style = {
 export default class Works extends Component {
     render() {
         return (
-            <article className="Works" id="myWorks">
+            <article className="works" id="myWorks">
 
                 <ScrollAnimation animateIn="bounceInLeft">
                     <div className="caseOne">
