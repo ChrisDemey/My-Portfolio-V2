@@ -7,6 +7,9 @@ import ChipsSASS from './Chips/ChipsSASS';
 import ChipsBootstrap from './Chips/ChipsBootstrap';
 import ChipsJavascript from './Chips/ChipsJavascript';
 import ChipsAPI from './Chips/ChipsAPI';
+import ChipsReact from './Chips/ChipsReact';
+import ChipsPHP from './Chips/ChipsPHP';
+import ChipsWordpress from './Chips/ChipsWordpress';
 
 const Style = {
     github: {
@@ -27,9 +30,8 @@ export default class Works extends Component {
                 <ScrollAnimation animateIn="bounceInLeft">
                     <div className="caseOne">
                         <div className="icons">
-                        <ChipsHTML/>
-                        <ChipsSASS/>
                         <ChipsBootstrap/>
+                        <ChipsSASS/>
                         </div>
                         <div className="socials">
                             <a 
@@ -71,9 +73,8 @@ export default class Works extends Component {
                 <ScrollAnimation animateIn="bounceInLeft">
                     <div className="caseThree">
                         <div className="icons">
-                            <ChipsHTML/>
-                            <ChipsSASS/>
                             <ChipsBootstrap/>
+                            <ChipsSASS/>
                             <ChipsJavascript/>
                             <ChipsAPI/>
                         </div>
@@ -95,9 +96,8 @@ export default class Works extends Component {
                 <ScrollAnimation animateIn="bounceInRight">
                     <div className="caseFour">
                         <div className="icons">
-                            <ChipsHTML/>
-                            <ChipsSASS/>
                             <ChipsBootstrap/>
+                            <ChipsSASS/>
                             <ChipsJavascript/>
                             <ChipsAPI/>
                         </div>
@@ -116,9 +116,68 @@ export default class Works extends Component {
                     </div>
                 </ScrollAnimation>
 
-                <ScrollAnimation animateIn="wobble" initiallyVisible={true}>
-                    <p>Cette section sera régulièrement mise à jour</p>
+                <ScrollAnimation animateIn="bounceInLeft">
+                    <div className="caseFive">
+                        <div className="icons">
+                            <ChipsReact/>
+                            <ChipsSASS/>
+                        </div>
+                        <div className="socials">
+                            <a 
+                                href="https://github.com/ChrisDemey/My-Portfolio-V2" 
+                                target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-code fa-5x" style={Style.github}></i>
+                            </a>
+                        </div>
+                    </div>
                 </ScrollAnimation>
+
+                <ScrollAnimation animateIn="bounceInRight">
+                    <div className="caseSix">
+                        <div className="icons">
+                            <ChipsBootstrap/>
+                            <ChipsSASS/>
+                            <ChipsJavascript/>
+                        </div>
+                        <div className="socials">
+                            <a 
+                                href="https://github.com/ChrisDemey/Qu-AI-10-event-website" 
+                                target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-code fa-5x" style={Style.github}></i>
+                            </a>
+                            <a 
+                                href="https://ia.quai10.be/" 
+                                target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-globe fa-5x" style={Style.internet}></i>
+                            </a>
+                        </div>
+                    </div>
+                </ScrollAnimation>
+
+                <ScrollAnimation animateIn="bounceInUp">
+                    <div className="caseSeven">
+                        <div className="icons">
+                            <ChipsPHP/>
+                            <ChipsWordpress/>
+                        </div>
+                        <div className="socials">
+                            <a 
+                                href="https://github.com/ChrisDemey/foodog" 
+                                target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-code fa-5x" style={Style.github}></i>
+                            </a>
+                            <a 
+                                href="http://95.179.208.26/" 
+                                target="_blank" rel="noopener noreferrer">
+                                <i class="fas fa-globe fa-5x" style={Style.internet}></i>
+                            </a>
+                        </div>
+                    </div>
+                </ScrollAnimation>
+
+                {/* <ScrollAnimation animateIn="wobble" initiallyVisible={true}>
+                    <p>Cette section sera régulièrement mise à jour</p>
+                </ScrollAnimation> */}
             </article>
         );
     }

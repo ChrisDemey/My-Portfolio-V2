@@ -5,24 +5,22 @@
 }
 
 @keyframes color-fade {
-  0% { background: rgb(0, 110, 255); }
-  15% { background: rgb(30, 255, 41); }
-  30% { background: #ff820e; }
-  45% { background: #b700ff; }
-  60% { background: #ff0101; }
-  75% { background: #eeff01; }
-  90% { background: #2dc277; }
-  100% { background: rgb(0, 110, 255); }
+  0% { background: #edc951; }
+  20% { background: #eb6841; }
+  40% { background: #cc2a36; }
+  60% { background: #4f372d; }
+  80% { background: #00a0b0; }
+  100% { background: #edc951; }
 }
 
 body {
-  animation: color-fade 45s infinite;
+  animation: color-fade 30s infinite;
   margin: 0;
   font-family: "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
 }
 
 nav {
-  animation: color-fade 45s infinite;
+  // animation: color-fade 45s infinite;
   width: 100%; 
   padding-top: 10px;
   position: fixed;
@@ -32,7 +30,7 @@ nav {
   flex-wrap: wrap;
   z-index: 5;
   a {
-    color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
     display: inline-block;
     transform: translateZ(0);
     &:hover {
@@ -44,12 +42,12 @@ nav {
     height: 50px;
     font-size: 30px;
     text-align: center;
-    color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
   }
 }
 
 article h3, h2, h1 {
-  color: rgb(32, 32, 32);
+  color: rgb(255, 255, 255);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -83,7 +81,7 @@ article h3, h2, h1 {
   }
   a {
     margin-top: 40px;
-    color: rgb(34, 34, 34);
+    color: rgb(255, 255, 255);
     animation: swing 3s ease;
     animation-iteration-count: infinite;
     &:hover {
@@ -100,12 +98,20 @@ article h3, h2, h1 {
   justify-content: center;
   align-items: center;
   p{
-    color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
     text-align: justify;
     font-size: 1.3em;
     margin-left: 50px;
     margin-right: 50px;
     margin-bottom: 40px;
+  }
+  a {
+    color: rgb(255, 255, 255);
+    animation: swing 3s ease;
+    animation-iteration-count: infinite;
+    &:hover {
+      cursor: pointer;
+    }
   }
 }
 
@@ -116,7 +122,8 @@ article h3, h2, h1 {
   justify-content: space-around;
   align-items: center;
   a{
-    color: rgb(32, 32, 32);
+    color: rgb(255, 255, 255);
+    text-decoration: none;
   }
   .fa-facebook-square{
     transition: 0.3s;
@@ -182,23 +189,28 @@ article h3, h2, h1 {
     }
   }
 
-  .describe p{
-    font-size: 1em;
-    font-weight: bolder;
-    margin-left: 5%;
-    margin-right: 5%;
+  .describe {
+    padding-top: 70px;
+    p{
+      font-size: 1em;
+      font-weight: bolder;
+      margin-left: 5%;
+      margin-right: 5%;
+    }
   }
 
   .contact{
     align-content: center;
     justify-content: center;
     flex-wrap: wrap;
-    height: 700px;
+    height: 100vh;
     .fa-facebook-square, .fa-linkedin, .fa-github-square, .fa-codepen, .fa-twitter-square, .fa-envelope-square{
-      width: 100px;
+      margin-left: 40px;
+      margin-right: 40px;
       margin-bottom: 20px;
       display: flex;
       justify-content: center;
+      text-decoration: none;
     }
   }
 }
@@ -209,6 +221,27 @@ article h3, h2, h1 {
     a {
       padding-left: 90px;
       padding-right: 90px;
+    }
+  }
+  .contact{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    a {
+      margin-left: 40px;
+      margin-right: 40px;
+    }
+  }
+  .describe{
+    p{
+      text-align: justify;
+      font-size: 1.3em;
+      margin-left: 50px;
+      margin-right: 50px;
+      margin-bottom: 40px;
+      width: 1200px;
     }
   }
 }
