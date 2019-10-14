@@ -140,6 +140,9 @@
             height: 150px;
             background-size: cover;
             background-repeat: no-repeat;
+            &:hover {
+                box-shadow: 0 0 transparent;
+            }
             &:hover .icons{
                 transform: translateY(-5px);
                 display: flex;
@@ -148,27 +151,6 @@
             &:hover .socials{
                 transform: translateY(5px);
             }
-        }
-        .caseOne:hover{
-            box-shadow: -15px 0px rgba(0, 0, 0, 0.233);
-        }
-        .caseTwo:hover{
-            box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
-        }
-        .caseThree:hover{
-            box-shadow: -15px 0px rgba(0, 0, 0, 0.233);
-        }
-        .caseFour:hover{
-            box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
-        }
-        .caseFive:hover{
-            box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
-        }
-        .caseSix:hover{
-            box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
-        }
-        .caseSeven:hover{
-            box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
         }
         p {
             text-align: center;

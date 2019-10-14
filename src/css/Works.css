@@ -1,7 +1,7 @@
-.Works {
+.works {
   overflow: hidden;
   min-height: 100vh;
-  padding-top: 45px;
+  padding-top: 115px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -17,7 +17,7 @@
       align-content: center;
 }
 
-.Works .caseOne, .Works .caseTwo, .Works .caseThree, .Works .caseFour {
+.works .caseOne, .works .caseTwo, .works .caseThree, .works .caseFour, .works .caseFive, .works .caseSix, .works .caseSeven {
   margin: 20px;
   width: 420px;
   height: 200px;
@@ -40,7 +40,7 @@
   overflow: hidden;
 }
 
-.Works .caseOne:hover .icons, .Works .caseTwo:hover .icons, .Works .caseThree:hover .icons, .Works .caseFour:hover .icons {
+.works .caseOne:hover .icons, .works .caseTwo:hover .icons, .works .caseThree:hover .icons, .works .caseFour:hover .icons, .works .caseFive:hover .icons, .works .caseSix:hover .icons, .works .caseSeven:hover .icons {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
@@ -55,7 +55,7 @@
           justify-content: center;
 }
 
-.Works .caseOne:hover .socials, .Works .caseTwo:hover .socials, .Works .caseThree:hover .socials, .Works .caseFour:hover .socials {
+.works .caseOne:hover .socials, .works .caseTwo:hover .socials, .works .caseThree:hover .socials, .works .caseFour:hover .socials, .works .caseFive:hover .socials, .works .caseSix:hover .socials, .works .caseSeven:hover .socials {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
@@ -64,7 +64,7 @@
           transform: translateY(20px);
 }
 
-.Works .caseOne .icons, .Works .caseTwo .icons, .Works .caseThree .icons, .Works .caseFour .icons {
+.works .caseOne .icons, .works .caseTwo .icons, .works .caseThree .icons, .works .caseFour .icons, .works .caseFive .icons, .works .caseSix .icons, .works .caseSeven .icons {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
@@ -73,7 +73,7 @@
           transform: translateY(-140px);
 }
 
-.Works .caseOne .socials, .Works .caseTwo .socials, .Works .caseThree .socials, .Works .caseFour .socials {
+.works .caseOne .socials, .works .caseTwo .socials, .works .caseThree .socials, .works .caseFour .socials, .works .caseFive .socials, .works .caseSix .socials, .works .caseSeven .socials {
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   transition: all 0.4s;
@@ -82,21 +82,21 @@
           transform: translateY(140px);
 }
 
-.Works .caseOne .socials a:hover, .Works .caseTwo .socials a:hover, .Works .caseThree .socials a:hover, .Works .caseFour .socials a:hover {
+.works .caseOne .socials a:hover, .works .caseTwo .socials a:hover, .works .caseThree .socials a:hover, .works .caseFour .socials a:hover, .works .caseFive .socials a:hover, .works .caseSix .socials a:hover, .works .caseSeven .socials a:hover {
   cursor: pointer;
 }
 
-.Works .caseOne {
-  -webkit-box-shadow: -6px 6px rgba(0, 0, 0, 0.233);
-          box-shadow: -6px 6px rgba(0, 0, 0, 0.233);
+.works .caseOne {
+  -webkit-box-shadow: -6px -6px rgba(0, 0, 0, 0.233);
+          box-shadow: -6px -6px rgba(0, 0, 0, 0.233);
   background-image: url("../img/restoImg.jpg");
   background-position: center;
   background-size: cover;
 }
 
-.Works .caseOne:hover {
-  -webkit-box-shadow: -15px 15px rgba(0, 0, 0, 0.233);
-          box-shadow: -15px 15px rgba(0, 0, 0, 0.233);
+.works .caseOne:hover {
+  -webkit-box-shadow: -15px -15px rgba(0, 0, 0, 0.233);
+          box-shadow: -15px -15px rgba(0, 0, 0, 0.233);
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(24, 24, 24, 0.952)), to(rgba(24, 24, 24, 0.952))), url("../img/restoImg.jpg");
   background: -webkit-linear-gradient(rgba(24, 24, 24, 0.952), rgba(24, 24, 24, 0.952)), url("../img/restoImg.jpg");
   background: -o-linear-gradient(rgba(24, 24, 24, 0.952), rgba(24, 24, 24, 0.952)), url("../img/restoImg.jpg");
@@ -105,17 +105,17 @@
   background-size: cover;
 }
 
-.Works .caseTwo {
-  -webkit-box-shadow: 6px 6px rgba(0, 0, 0, 0.233);
-          box-shadow: 6px 6px rgba(0, 0, 0, 0.233);
+.works .caseTwo {
+  -webkit-box-shadow: 6px -6px rgba(0, 0, 0, 0.233);
+          box-shadow: 6px -6px rgba(0, 0, 0, 0.233);
   background: url("../img/td2Img.jpg");
   background-position: center;
   background-size: cover;
 }
 
-.Works .caseTwo:hover {
-  -webkit-box-shadow: 15px 15px rgba(0, 0, 0, 0.233);
-          box-shadow: 15px 15px rgba(0, 0, 0, 0.233);
+.works .caseTwo:hover {
+  -webkit-box-shadow: 15px -15px rgba(0, 0, 0, 0.233);
+          box-shadow: 15px -15px rgba(0, 0, 0, 0.233);
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 26, 37, 0.952)), to(rgba(25, 26, 37, 0.952))), url("../img/td2Img.jpg");
   background: -webkit-linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/td2Img.jpg");
   background: -o-linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/td2Img.jpg");
@@ -124,17 +124,17 @@
   background-size: cover;
 }
 
-.Works .caseThree {
-  -webkit-box-shadow: -6px -6px rgba(0, 0, 0, 0.233);
-          box-shadow: -6px -6px rgba(0, 0, 0, 0.233);
+.works .caseThree {
+  -webkit-box-shadow: -6px 0px rgba(0, 0, 0, 0.233);
+          box-shadow: -6px 0px rgba(0, 0, 0, 0.233);
   background: url("../img/allezcineImg.jpg");
   background-position: center;
   background-size: cover;
 }
 
-.Works .caseThree:hover {
-  -webkit-box-shadow: -15px -15px rgba(0, 0, 0, 0.233);
-          box-shadow: -15px -15px rgba(0, 0, 0, 0.233);
+.works .caseThree:hover {
+  -webkit-box-shadow: -15px 0px rgba(0, 0, 0, 0.233);
+          box-shadow: -15px 0px rgba(0, 0, 0, 0.233);
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 26, 37, 0.952)), to(rgba(25, 26, 37, 0.952))), url("../img/allezcineImg.jpg");
   background: -webkit-linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/allezcineImg.jpg");
   background: -o-linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/allezcineImg.jpg");
@@ -143,17 +143,17 @@
   background-size: cover;
 }
 
-.Works .caseFour {
-  -webkit-box-shadow: 6px -6px rgba(0, 0, 0, 0.233);
-          box-shadow: 6px -6px rgba(0, 0, 0, 0.233);
+.works .caseFour {
+  -webkit-box-shadow: 6px 0px rgba(0, 0, 0, 0.233);
+          box-shadow: 6px 0px rgba(0, 0, 0, 0.233);
   background: url("../img/hitmanImg.jpg");
   background-position: center;
   background-size: cover;
 }
 
-.Works .caseFour:hover {
-  -webkit-box-shadow: 15px -15px rgba(0, 0, 0, 0.233);
-          box-shadow: 15px -15px rgba(0, 0, 0, 0.233);
+.works .caseFour:hover {
+  -webkit-box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+          box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 26, 37, 0.952)), to(rgba(25, 26, 37, 0.952))), url("../img/hitmanImg.jpg");
   background: -webkit-linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/hitmanImg.jpg");
   background: -o-linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/hitmanImg.jpg");
@@ -162,18 +162,130 @@
   background-size: cover;
 }
 
-.Works p {
+.works .caseFive {
+  -webkit-box-shadow: -6px 0px rgba(0, 0, 0, 0.233);
+          box-shadow: -6px 0px rgba(0, 0, 0, 0.233);
+  background: url("../img/portfolio.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.works .caseFive:hover {
+  -webkit-box-shadow: -15px 0px rgba(0, 0, 0, 0.233);
+          box-shadow: -15px 0px rgba(0, 0, 0, 0.233);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 26, 37, 0.952)), to(rgba(25, 26, 37, 0.952))), url("../img/portfolio.jpg");
+  background: -webkit-linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/portfolio.jpg");
+  background: -o-linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/portfolio.jpg");
+  background: linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/portfolio.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.works .caseSix {
+  -webkit-box-shadow: 6px 0px rgba(0, 0, 0, 0.233);
+          box-shadow: 6px 0px rgba(0, 0, 0, 0.233);
+  background: url("../img/qu-AI10.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.works .caseSix:hover {
+  -webkit-box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+          box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 26, 37, 0.952)), to(rgba(25, 26, 37, 0.952))), url("../img/portfolio.jpg");
+  background: -webkit-linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/portfolio.jpg");
+  background: -o-linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/portfolio.jpg");
+  background: linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/portfolio.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.works .caseSeven {
+  -webkit-box-shadow: 0px 6px rgba(0, 0, 0, 0.233);
+          box-shadow: 0px 6px rgba(0, 0, 0, 0.233);
+  background: url("../img/foodog.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.works .caseSeven:hover {
+  -webkit-box-shadow: 0px 15px rgba(0, 0, 0, 0.233);
+          box-shadow: 0px 15px rgba(0, 0, 0, 0.233);
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(25, 26, 37, 0.952)), to(rgba(25, 26, 37, 0.952))), url("../img/portfolio.jpg");
+  background: -webkit-linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/portfolio.jpg");
+  background: -o-linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/portfolio.jpg");
+  background: linear-gradient(rgba(25, 26, 37, 0.952), rgba(25, 26, 37, 0.952)), url("../img/portfolio.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+.works p {
   font-size: 2em;
   opacity: 0.6;
 }
 
 @media screen and (max-width: 360px) {
-  .Works .caseOne, .Works .caseTwo, .Works .caseThree, .Works .caseFour {
+  .works .caseOne, .works .caseTwo, .works .caseThree, .works .caseFour, .works .caseFive, .works .caseSix, .works .caseSeven {
     -webkit-box-shadow: 0 0 transparent;
             box-shadow: 0 0 transparent;
     width: 320px;
     height: 150px;
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  .works .caseOne:hover .icons, .works .caseTwo:hover .icons, .works .caseThree:hover .icons, .works .caseFour:hover .icons, .works .caseFive:hover .icons, .works .caseSix:hover .icons, .works .caseSeven:hover .icons {
+    -webkit-transform: translateY(-5px);
+        -ms-transform: translateY(-5px);
+            transform: translateY(-5px);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .works .caseOne:hover .socials, .works .caseTwo:hover .socials, .works .caseThree:hover .socials, .works .caseFour:hover .socials, .works .caseFive:hover .socials, .works .caseSix:hover .socials, .works .caseSeven:hover .socials {
+    -webkit-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+            transform: translateY(5px);
+  }
+  .works .caseOne:hover {
+    -webkit-box-shadow: -15px 0px rgba(0, 0, 0, 0.233);
+            box-shadow: -15px 0px rgba(0, 0, 0, 0.233);
+  }
+  .works .caseTwo:hover {
+    -webkit-box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+            box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+  }
+  .works .caseThree:hover {
+    -webkit-box-shadow: -15px 0px rgba(0, 0, 0, 0.233);
+            box-shadow: -15px 0px rgba(0, 0, 0, 0.233);
+  }
+  .works .caseFour:hover {
+    -webkit-box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+            box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+  }
+  .works .caseFive:hover {
+    -webkit-box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+            box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+  }
+  .works .caseSix:hover {
+    -webkit-box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+            box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+  }
+  .works .caseSeven:hover {
+    -webkit-box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+            box-shadow: 15px 0px rgba(0, 0, 0, 0.233);
+  }
+  .works p {
+    text-align: center;
+    width: 340px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .works {
+    margin-left: 20%;
+    margin-right: 20%;
   }
 }
